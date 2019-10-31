@@ -1,4 +1,4 @@
-## Meteor React App
+## Meteor React Simple Todos
 
 ##### This is the tutorial app on meteor with react from https://www.meteor.com/tutorials/react/creating-an-app
 
