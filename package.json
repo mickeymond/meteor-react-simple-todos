@@ -6,6 +6,7 @@
     "test": "meteor test --once --driver-package meteortesting:mocha",
     "test-watch": "meteor test --driver-package meteortesting:mocha --port 4000",
     "test-app": "meteor test --full-app --driver-package meteortesting:mocha",
+		"test-app-watch": "meteor test --full-app --driver-package meteortesting:mocha --port 4000",
     "visualize": "meteor --production --extra-packages bundle-visualizer"
   },
   "dependencies": {
