@@ -17,7 +17,8 @@ if (Meteor.isClient) {
 
     it('renders task', () => {
       const wrapper = shallow(<Task task={task} showPrivateButton={true} />);
-      expect(wrapper.text()).to.have.string(task.text);
+      expect(wrapper.text()).to.have.string('Go to the beach');
+      expect(wrapper.exists('.dele')).to.equal(false);
     });
 
     it('fails to render task', () => {
